@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Bloglist from "./bloglist";
 
 export default function Home() {
+    
   const [blogs,setBlogs]=useState([
       {title:'My new website',body:'lorem ipsum ......',author:'mario',id:1},
       {title:'Welcome Party',body:'lorem ipsum ......',author:'yoshi',id:2},
@@ -18,8 +19,8 @@ export default function Home() {
 
     useEffect(()=>{
       console.log('use effect ran');
-      console.log(blogs);
-    },[])
+      console.log(name);
+    },[name])
 
     return (
         <div className="home">

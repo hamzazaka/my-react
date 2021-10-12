@@ -1,0 +1,17 @@
+{
+    "blogs":[
+        {
+            "title":"My first blog",
+            "body":"Why do we use it, it has alot og benefits of using the files in this number and platform",
+            "author":"mario",
+            "id":1
+
+        },
+        {
+            "title":"Opening Party",
+            "body":"Why do we hello the party is really great an i lov ethis party and I also love to work in this format",
+            "author":"yoshi",
+            "id":2
+        }
+    ]
+}
